@@ -1,0 +1,14 @@
+{
+    "autoload": {
+        "psr-4": {
+            "App\\model\\": "App/model"
+        }
+    },
+    "require": {
+        "slim/slim": "^4.5",
+        "slim/psr7": "^1.1",
+        "slim/http": "^1.0",
+        "ext-curl": "*",
+        "ext-json": "*"
+    }
+}
